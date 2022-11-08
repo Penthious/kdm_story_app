@@ -1,0 +1,238 @@
+#settings {
+  position: absolute;
+  background-color: Transparent;
+  bottom: 2%;
+  right: 1.1%;
+  width: 3%;
+  display: block;
+  /* font-size: 2em; */
+  /* font-family: 'Silverado'; */
+  cursor: pointer;
+  /* border: none; */
+  /* text-align: center; */
+  z-index: 74;
+  color: #888;
+  opacity: 0.4;
+  transition: opacity 0.5s, filter 0.5s, drop-shadow 0.5s ease;
+}
+
+#settings:hover {
+  opacity: 0.8;
+	animation: glowing-image_2 3000ms infinite;
+}
+
+#settings.active {
+  opacity: 1.0;
+  filter: drop-shadow(0 0 1vmin #cccc00);
+}
+
+#settings-window-back0 {
+  /* width:30%; */
+  left:20%;
+  top: 2%;
+  height: 95%;
+  width: 60%;
+  position:absolute;
+  z-index: 81;
+  display:block;
+  -webkit-box-shadow: 0 0 8vmin #000;
+        box-shadow: 0 0 8vmin #000;
+  overflow:hidden;
+  --borderWidth: 1em;
+  border-radius: var(--borderWidth);
+  border: 0.2rem solid #555;
+  scrollbar-width: none;
+  background: #111;
+  opacity: 0.9;
+}
+
+#settings-window-back0::-webkit-scrollbar {
+        display: none;
+    }
+
+#settings-window-back {
+  /* width:30%; */
+  left:0%;
+  top: 15%;
+  height: 65%;
+  width: 90%;
+  left: 3%;
+  position:absolute;
+  z-index: 85;
+  display:block;
+  overflow:auto;
+  scrollbar-width: none;
+  opacity: 1.0;
+}
+
+#settings-window-back::-webkit-scrollbar {
+        display: none;
+    }
+
+#settings-window-back-img {
+  /* width:30%; */
+  left:0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  z-index: 83;
+  display:block;
+  --borderWidth: 1em;
+  border-radius: var(--borderWidth);
+  -webkit-box-shadow: 0 0 8vmin #000;
+        box-shadow: 0 0 8vmin #000;
+  background: #0A0A0A;
+  overflow:auto;
+}
+
+#settings-title {
+  color: #888;
+  position:absolute;
+  z-index: 86;
+  display:block;
+  top: 5%;
+  width: 100%;
+  height: 5%;
+  font-size: 3em;
+  font-family: 'Silverado';
+  cursor: default;
+  text-align: center;
+  vertical-align: center;
+  text-shadow: 0 0 1vmin #000;
+}
+
+#settings-save {
+  position: absolute;
+  background-color: Transparent;
+  top: 93%;
+  height: 7%;
+  margin-top: -5%;
+  /* left: 2.1%; */
+  width: 30%;
+  left: 35%;
+  display: block;
+  font-size: 2em;
+  font-family: 'Silverado';
+  cursor: pointer;
+  /* border: none; */
+  /* align: center; */
+  text-align: center;
+  /* vertical-align: center; */
+  color: #888;
+  z-index: 86;
+  /* opacity: 0.5; */
+  --borderWidth: 1em;
+  border-radius: var(--borderWidth);
+  -webkit-box-shadow: 0 0 8vmin #000;
+        box-shadow: 0 0 8vmin #000;
+}
+
+#settings:hover {
+  color: yellow;
+  /* opacity: 0.5; */
+}
+
+#settings-window-background {
+  left:0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  z-index: 80;
+  display:block;
+  background: #030303;
+  opacity: 0.6;
+}
+
+table.settings {
+  position:static;
+  /* display:block; */
+  /* overflow: auto; */
+  width: 100%;
+  left: 0%;
+  /* height: 100%; */
+  color: #aaa;
+  font-size: 1em;
+  background: Transparent;
+  float: left;
+}
+
+/* tbody.settings {
+  width: 100%;
+} */
+
+tr.settings {
+  width: 100%;
+  padding-bottom: 1vmin;
+  /* position:static; */
+}
+
+td#title.settings {
+  width: 40%;
+  text-align: right;
+  vertical-align:center;
+  /* position:static; */
+  padding-right: 1vmin;
+  padding-bottom: 0.5vmin;
+  font-size: 1.3em;
+}
+
+td#select.settings {
+  width: 40%;
+  vertical-align:center;
+  left: 1%;
+  /* position:static; */
+}
+
+td#group.settings {
+  width: 20%;
+  text-align: center;
+  vertical-align:top;
+  font-size: 1.6em;
+  color: #888;
+  padding-top: 3vmin;
+  padding-bottom: 3vmin;
+}
+
+td#table.settings {
+  width: 70%;
+  vertical-align:center;
+  /* position:static; */
+}
+
+select.settings {
+  width: 59%;
+  font-size: 1.3em;
+  font-family: 'Silverado';
+  border: 0.1vmin solid #ccc;
+  box-shadow: 0 0 0.1vmin #000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #444;
+  /* position:static; */
+  /* margin:auto; */
+  /* align: center; */
+  text-align: center;
+  color: #ccc;
+  padding-left: 0.2vmin;
+}
+
+select.settings > option {
+   background: #666;
+}
+
+/* select.settings[level=1] {
+  width: 80% !important;
+} */
+
+select[value = "campaign"] {
+  border: none;
+  background: Transparent;
+  color: #ccc;
+}
+
+select::-ms-expand {
+    display: none; /* remove default arrow in IE 10 and 11 */
+}

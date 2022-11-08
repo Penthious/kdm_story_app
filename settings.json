@@ -1,0 +1,41 @@
+{
+  "campaign": "Lantern",
+  "language": "en",
+  "fullscreen": "On",
+  "preload": "Off",
+  "subtitles": "On",
+  "music": "On",
+  "narration": "On",
+  "onscreenKeypads": "On",
+  "fontSize": "16px",
+  "size_of_basic_hunt_deck": "12",
+  "innovation_row_length": "5",
+  "expansions": {
+    "gorm": "Disabled",
+    "dung beetle knight": "Disabled",
+    "sunstalker": "Disabled",
+    "lion god": "Disabled",
+    "dragon king": "Disabled",
+    "flower knight": "Disabled",
+    "spidicules": "Disabled",
+    "manhunter": "Disabled",
+    "slenderman": "Disabled",
+    "storm knight": "Disabled",
+    "trial of champions": "Disabled",
+    "green knight armor": "Disabled",
+    "lion knight": "Disabled",
+    "lonely tree": "Disabled"
+  },
+  "strains": {
+    "backstabber": "Disabled",
+    "ethereal pact": "Disabled",
+    "giants blood": "Disabled",
+    "infinite lives": "Disabled"
+  },
+  "whiteboxes": {
+    "allison the twilight knight": "Disabled",
+    "fade": "Disabled",
+    "percival": "Disabled",
+    "white speaker": "Disabled"
+  }
+}

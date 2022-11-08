@@ -1,0 +1,12 @@
+node_modules/
+.vscode/
+.DS_Store
+images/.DS_Store
+images/reference/.DS_Store
+images/reference/Disorders/.DS_Store
+package-lock.json
+dist/
+yarn-error.log
+_content.json
+*.log
+.idea
